@@ -8,12 +8,12 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import easierExcel from '../images/portfolio/easier-excel.png';
-import feedler from '../images/portfolio/feedler.png';
-import gameSaveManager from '../images/portfolio/game-save-manager.png';
-import gameTracker from '../images/portfolio/game-tracker.png';
-import profilepic from '../images/profilepic.jpg';
-import heroImage from '../images/steel-wool1.jpg'; // TODO make this smaller
+import easierExcel from '/nextjs-github-pages/images/portfolio/easier-excel.png';
+import feedler from '/nextjs-github-pages/images/portfolio/feedler.png';
+import gameSaveManager from '/nextjs-github-pages/images/portfolio/game-save-manager.png';
+import gameTracker from '/nextjs-github-pages/images/portfolio/game-tracker.png';
+import profilepic from '/nextjs-github-pages/images/profilepic.jpg';
+import heroImage from '/nextjs-github-pages/images/steel-wool1.jpg'; // TODO make this smaller
 // replace this once it is used
 import testimonialImage from '../images/testimonial.webp';
 import {
