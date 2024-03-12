@@ -181,14 +181,14 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Resume section
  */
 export const education: TimelineItem[] = [
   {
     date: 'December 2021',
     location: 'App Academy',
     title: 'Online 24 Week Javascript/Python',
-    content: <p>I learned how to build full stack web applications using Python,JavaScript, React, Redux, Express, Flask, SQLAlchemy, and PostgreSQL.</p>,
+    content: <p>I learned how to build full stack web applications using Python, JavaScript, React, Redux, Express, Flask, SQLAlchemy, and PostgreSQL.</p>,
   },
   {
     date: '2014',
