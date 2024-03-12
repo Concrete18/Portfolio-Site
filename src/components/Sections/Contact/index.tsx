@@ -38,11 +38,11 @@ const Contact: FC = memo(() => {
                       <a
                         className={classNames(
                           '-m-2 flex rounded-md p-2 text-neutral-900 hover:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-sky-500',
-                          {'hover:text-white': href},
+                          {'hover:text-neutral-600': href},
                         )}
                         href={href}
                         target="_blank">
-                        <Icon aria-hidden="true" className="h-4 w-4 flex-shrink-0 text-neutral-700 sm:h-5 sm:w-5" />
+                        <Icon aria-hidden="true" className="h-4 w-4 flex-shrink-0 text-neutral-600 sm:h-5 sm:w-5" />
                         <span className="ml-3 text-sm sm:text-base">{text}</span>
                       </a>
                     </dd>
