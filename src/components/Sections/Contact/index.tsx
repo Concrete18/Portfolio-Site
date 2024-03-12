@@ -28,7 +28,7 @@ const Contact: FC = memo(() => {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-1">
           <div className="order-1 col-span-1 flex flex-col gap-y-4 md:order-2">
             <p className="prose leading-6 text-neutral-900">{description}</p>
-            <dl className="flex flex-col space-y-4 text-base text-neutral-500 sm:space-y-2">
+            <dl className="flex flex-col space-y-4 text-base text-neutral-600 sm:space-y-2">
               {items.map(({type, text, href}) => {
                 const {Icon, srLabel} = ContactValueMap[type];
                 return (
@@ -37,7 +37,7 @@ const Contact: FC = memo(() => {
                     <dd className="flex items-center">
                       <a
                         className={classNames(
-                          '-m-2 flex rounded-md p-2 text-neutral-900 hover:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-sky-500',
+                          '-m-2 flex rounded-md p-2 text-neutral-900 hover:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-sky-500',
                           {'hover:text-white': href},
                         )}
                         href={href}
