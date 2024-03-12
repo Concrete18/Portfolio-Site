@@ -14,7 +14,6 @@ import gameSaveManager from '../images/portfolio/game-save-manager.png';
 import gameTracker from '../images/portfolio/game-tracker.png';
 import profilepic from '../images/profilepic.jpg';
 import heroImage from '../images/steel-wool1.jpg'; // TODO make this smaller
-
 import testimonialImage from '../images/testimonial.webp'; // TODO replace this once it is used
 import {
   About,
