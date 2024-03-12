@@ -6,16 +6,16 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import easierExcel from '/nextjs-github-pages/images/portfolio/easier-excel.png';
-import feedler from '/nextjs-github-pages/images/portfolio/feedler.png';
-import gameSaveManager from '/nextjs-github-pages/images/portfolio/game-save-manager.png';
-import gameTracker from '/nextjs-github-pages/images/portfolio/game-tracker.png';
-import profilepic from '/nextjs-github-pages/images/profilepic.jpg';
-import heroImage from '/nextjs-github-pages/images/steel-wool1.jpg'; // TODO make this smaller
-// replace this once it is used
-import testimonialImage from '../images/testimonial.webp';
+import githubIcon from '../components/Icon/GithubIcon';
+import linkedInIcon from '../components/Icon/LinkedInIcon';
+import easierExcel from '../images/portfolio/easier-excel.png';
+import feedler from '../images/portfolio/feedler.png';
+import gameSaveManager from '../images/portfolio/game-save-manager.png';
+import gameTracker from '../images/portfolio/game-tracker.png';
+import profilepic from '../images/profilepic.jpg';
+import heroImage from '../images/steel-wool1.jpg'; // TODO make this smaller
+
+import testimonialImage from '../images/testimonial.webp'; // TODO replace this once it is used
 import {
   About,
   ContactSection,
@@ -33,7 +33,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Michael\'s Personal Site',
+  title: "Michael's Personal Site",
   description: "This is my personal site with filled my projects and interests.",
 };
 
@@ -277,6 +277,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Concrete18'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/michaelericson1'},
+  {label: 'Github', Icon: githubIcon, href: 'https://github.com/Concrete18'},
+  {label: 'LinkedIn', Icon: linkedInIcon, href: 'https://www.linkedin.com/in/michaelericson1'},
 ];
