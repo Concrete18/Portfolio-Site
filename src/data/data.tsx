@@ -65,7 +65,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, I love to learn new <strong className="text-stone-100">Technology</strong>,
-        play <strong className="text-stone-100">Video Games</strong>, or enjoying some fantastic
+        play <strong className="text-stone-100">Video Games</strong> and enjoy some fantastic
         <strong className="text-stone-100"> Shows</strong> and <strong className="text-stone-100">Movies</strong>.
       </p>
     </>
@@ -96,7 +96,7 @@ export const aboutData: About = {
   `,
   aboutItems: [
     {label: 'Location', text: 'Georgia, US', Icon: MapIcon},
-    {label: 'Interests', text: 'Coding, Technology, Video Games, Photography', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Coding, Technology, Video Games', Icon: SparklesIcon},
     {label: 'Study', text: 'Georgia College & State University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Freelancing', Icon: BuildingOffice2Icon},
   ],
@@ -156,26 +156,28 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Feedler',
-    description: 'Live auto populated User customizable RSS feeds viewer',
+    description: 'Clone of Feedly with User customizable feeds and sources. Articles auto populate via live RSS feeds',
     url: 'https://github.com/Concrete18/Feedly-Clone',
     image: feedler,
   },
   {
     title: 'EasierExcel',
-    description: 'Easier Excel reading/editing within Python',
+    description: 'Allows for simpler reading and editing of Excel files within Python. This simplifies OpenPyXL',
     url: 'https://github.com/Concrete18/easierexcel',
     image: easierExcel,
   },
+
+  
   {
     title: 'Game Library Tracker',
-    description: 'Steam library tracking/syncing to Excel Sheet',
+    description: "Steam Library Tracker made easy by keeping up with what you have played and want to play",
     url: 'https://github.com/Concrete18/Game-Library-Tracker',
     image: gameTracker,
   },
   {
     title: 'Game Save Manager',
-    description: 'Interface for managing game saves',
-    url: 'https://github.com/Concrete18/easierexcel',
+    description: 'Tkinter Interface for running through a SQLite Database that allows backing up game saves easily',
+    url: 'https://github.com/Concrete18/Game-Save-Manager',
     image: gameSaveManager,
   },
 ];
@@ -252,7 +254,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: "I'm excited to connect with you and explore potential collaborations. Whether it's a project idea, partnership opportunity, or just to exchange ideas, I'm eager to hear from you.",
+  description: "I'm excited to connect with you and explore potential collaborations. Whether it's a project idea or just to exchange ideas, I'm eager to hear from you.",
   items: [
     {
       type: ContactType.Email,
