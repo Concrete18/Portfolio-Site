@@ -32,7 +32,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: "Michael's Personal Site",
+  title: 'Michael\'s Personal Site',
   description: "This is my personal site with filled my projects and interests.",
 };
 
