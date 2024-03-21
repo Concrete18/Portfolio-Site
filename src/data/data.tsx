@@ -110,11 +110,11 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
-        level: 8,
+        name: 'Python',
+        level: 9,
       },
       {
-        name: 'Python',
+        name: 'Node.js',
         level: 8,
       },
       {
@@ -122,12 +122,21 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 2,
-      },
-      {
         name: 'Typescript',
         level: 6,
+      },
+      {
+        name: 'PostgreSQL',
+        level: 6,
+      },
+      {
+        name: 'AWS',
+        level: 5,
+      },
+    
+      {
+        name: 'Rust',
+        level: 2,
       },
     ],
   },
@@ -136,11 +145,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 8,
       },
       {
         name: 'HTML',
-        level: 8,
+        level: 9,
       },
       {
         name: 'CSS',
@@ -166,8 +175,6 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/Concrete18/easierexcel',
     image: easierExcel,
   },
-
-  
   {
     title: 'Game Library Tracker',
     description: "Steam Library Tracker made easy by keeping up with what you have played and want to play",
@@ -202,6 +209,9 @@ export const education: TimelineItem[] = [
   },
 ];
 
+/**
+ * Experience section
+ */
 export const experience: TimelineItem[] = [
   {
     date: 'December 2022 - November 2023',
