@@ -13,7 +13,7 @@ import feedler from '../images/portfolio/feedler.png';
 import gameSaveManager from '../images/portfolio/game-save-manager.png';
 import gameTracker from '../images/portfolio/game-tracker.png';
 import profilepic from '../images/profilepic.jpg';
-import heroImage from '../images/steel-wool1.jpg'; // TODO make this smaller
+import heroImage from '../images/steel-wool1.jpg'; // TODO make file smaller
 import testimonialImage from '../images/testimonial.webp'; // TODO replace this once it is used
 import {
   About,
@@ -123,7 +123,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Typescript',
-        level: 6,
+        level: 7,
       },
       {
         name: 'PostgreSQL',
@@ -136,7 +136,7 @@ export const skills: SkillGroup[] = [
     
       {
         name: 'Rust',
-        level: 2,
+        level: 4,
       },
     ],
   },

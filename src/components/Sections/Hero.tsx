@@ -15,6 +15,7 @@ const Hero: FC = memo(() => {
       <div className="relative flex h-screen w-full items-center justify-center">
         <Image
           alt={`${name}-image`}
+          // TODO lower height of banner so work history is seen sooner
           className="absolute z-0 h-full w-full object-cover"
           placeholder="blur"
           priority
