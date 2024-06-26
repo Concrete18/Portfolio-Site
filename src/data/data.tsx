@@ -33,7 +33,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Michael\'s Personal Site',
-  description: "Michael Ericson's personal site with filled his projects and interests.",
+  description: "Michael Ericson's personal site filled his projects and interests.",
 };
 
 /**
