@@ -33,7 +33,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Michael\'s Personal Site',
-  description: "This is my personal site with filled my projects and interests.",
+  description: "Michael Ericson's personal site with filled his projects and interests.",
 };
 
 /**
@@ -90,6 +90,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
+  // TODO make this more personal
   description: `I am a full stack software engineer, I have a passion for creating innovative and user-friendly web applications using
   Python and JavaScript/Typscript. I graduated from App Academy, a rigorous and selective coding bootcamp, where I learned how to build full
   stack web applications using React, Redux, Express, Flask, SQLAlchemy, and PostgreSQL.
@@ -149,11 +150,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'HTML',
-        level: 9,
+        level: 8,
       },
       {
         name: 'CSS',
-        level: 4,
+        level: 7,
       },
     ],
   },
