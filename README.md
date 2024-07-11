@@ -8,4 +8,8 @@ To build this website, you will need to have the latest stable versions of Node 
 
 ### Install dependencies and run
 
-Open the folder in your favorite terminal and run `yarn install` to install dependencies. Following this, run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).
+Open the folder in your favorite terminal and run `yarn install` to install dependencies.
+
+## Run site
+
+Run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).

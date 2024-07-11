@@ -11,6 +11,7 @@ import linkedInIcon from '../components/Icon/LinkedInIcon';
 import easierExcel from '../images/portfolio/easier-excel.png';
 import feedler from '../images/portfolio/feedler.png';
 import gameSaveManager from '../images/portfolio/game-save-manager.png';
+import webControl from '../images/portfolio/web-control.png';
 import gameTracker from '../images/portfolio/game-tracker.png';
 import profilepic from '../images/profilepic.jpg';
 import heroImage from '../images/steel-wool1.jpg'; // TODO make file smaller
@@ -177,16 +178,22 @@ export const portfolioItems: PortfolioItem[] = [
     image: easierExcel,
   },
   {
-    title: 'Game Library Tracker',
-    description: "Steam Library Tracker made easy by keeping up with what you have played and want to play",
-    url: 'https://github.com/Concrete18/Game-Library-Tracker',
-    image: gameTracker,
+    title: 'Web Control',
+    description: 'Typscript and React frontend with Python and Flask backend local only web server that allows control of PC it runs on.',
+    url: 'https://github.com/Concrete18/Web-Control',
+    image: webControl,
   },
   {
     title: 'Game Save Manager',
     description: 'Tkinter Interface for running through a SQLite Database that allows backing up game saves easily',
     url: 'https://github.com/Concrete18/Game-Save-Manager',
     image: gameSaveManager,
+  },
+  {
+    title: 'Game Library Tracker',
+    description: "Steam Library Tracker made easy by keeping up with what you have played and want to play",
+    url: 'https://github.com/Concrete18/Game-Library-Tracker',
+    image: gameTracker,
   },
 ];
 
