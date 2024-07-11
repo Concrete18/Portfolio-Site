@@ -11,8 +11,8 @@ import linkedInIcon from '../components/Icon/LinkedInIcon';
 import easierExcel from '../images/portfolio/easier-excel.png';
 import feedler from '../images/portfolio/feedler.png';
 import gameSaveManager from '../images/portfolio/game-save-manager.png';
-import webControl from '../images/portfolio/web-control.png';
 import gameTracker from '../images/portfolio/game-tracker.png';
+import webControl from '../images/portfolio/web-control.png';
 import profilepic from '../images/profilepic.jpg';
 import heroImage from '../images/steel-wool1.jpg'; // TODO make file smaller
 import testimonialImage from '../images/testimonial.webp'; // TODO replace this once it is used
