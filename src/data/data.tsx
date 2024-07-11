@@ -124,12 +124,12 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Flask',
-        level: 6,
-      },
-      {
         name: 'Typescript',
         level: 7,
+      },
+      {
+        name: 'Flask',
+        level: 6,
       },
       {
         name: 'PostgreSQL',
